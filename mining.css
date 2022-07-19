@@ -1,0 +1,125 @@
+#logo{
+ width:max(100px, 18vw); 
+
+}
+fieldset{
+    font-size: x-large;
+    border: 4px solid black;
+    display: flexbox;
+}
+.head{
+    margin-left: 200px;
+    background-color: rgb(230, 230, 230);
+    font-size: larger;
+    font-weight: black;
+    max-width: 300px;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+#getstarted{
+    float: right;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    margin-left: 200px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(170, 221, 213);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: whitesmoke;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgb(10, 10, 10);
+    border-top: none;
+  }
+  .tabcontent {
+    animation: fadeEffect 1.5s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .wide{
+    width: 400px;
+   }
+   .left{
+   float: left;
+   margin-left: 83px;
+   }
+   .tab {
+     overflow: hidden;
+     border: 10px transparent #ccc;
+     background-color: orangered;
+   }
+   #logo{
+    width:max(100px, 18vw); 
+   
+   }
+   .bold{
+     font-family: Arial;
+     font-size: larger;
+     font-style: unset;
+   }
+   {
+     float: left;
+   }
+      .center{
+          background: black;
+          color: white;
+          border-radius: 1em;
+          padding: 8px;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%) 
+      }
+      input{
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .signup{
+        border: 2px solid black;
+        width: 470px;
+        margin: auto;
+        padding:auto;
+      
+        text-align: center;
+        font-size: larger;
+        justify-content: center;
+        border-radius: 10px;
+      }
+      body{
+        background-color: rgba(250, 250, 250, 0.603);
+    }
+      table{
+        margin: auto;
+      }
+      .top{
+        float: right;
+      }
+      h1{
+           
+        
+     
+        background: black;
+        color: white;
+
+    }
